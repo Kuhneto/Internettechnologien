@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Meisterschaft (Beginn, Ende, Mannschaft+,Spiel+)>
+<!ATTLIST Meisterschaft typ (EM|WM) #IMPLIED>
+<!ELEMENT Beginn (#PCDATA)>
+<!ELEMENT Ende (#PCDATA)>
+<!ELEMENT Mannschaft (Name, Land, Trainer, Spieler+, Erfolg*)>
+<!ATTLIST Mannschaft id ID #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Land (#PCDATA)>
+<!ELEMENT Trainer (#PCDATA)>
+<!ELEMENT Spieler EMPTY>
+<!ATTLIST Spieler position (Torwart|Verteidiger|Mittelfeld|Stürmer) #REQUIRED>
+<!ELEMENT Erfolg EMPTY>
+<!ATTLIST Erfolg
+	Freitext	CDATA #IMPLIED
+	Titel		CDATA #IMPLIED
+	Jahr		CDATA #IMPLIED
+>
+<!ELEMENT Spiel EMPTY>
+<!ATTLIST Spiel
+	heim		ENTITY #REQUIRED
+	gast		ENTITY #REQUIRED
+	ergebnis	CDATA #IMPLIED
+>

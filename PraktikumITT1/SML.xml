@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PraktikumITT1 SYSTEM "SML.dtd">
+
+<Meisterschaft>
+<Beginn>01.06.2022</Beginn>
+<Ende>15.09.2023</Ende>
+
+<Mannschaft id = "FCB1">
+<Name>FC Bayern</Name>
+<Land>Deutschland</Land>
+<Trainer>Julian Nagelsmann</Trainer>
+<Spieler position = "Torwart"></Spieler>
+<Spieler position = "Verteidiger"></Spieler>
+</Mannschaft>
+
+<Mannschaft id = "FCM1">
+<Name>Real Madrid</Name>
+<Land>Spanien</Land>
+<Trainer>Xavi Alonso</Trainer>
+<Spieler position = "Torwart"></Spieler>
+<Spieler position = "Verteidiger"></Spieler>
+</Mannschaft>
+
+<Spiel heim = "FCB1" gast = "FCM1"></Spiel>
+</Meisterschaft>
