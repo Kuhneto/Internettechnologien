@@ -18,7 +18,7 @@
 >
 <!ELEMENT Spiel EMPTY>
 <!ATTLIST Spiel
-	heim		ENTITY #REQUIRED
-	gast		ENTITY #REQUIRED
+	heim		IDREF #REQUIRED
+	gast		IDREF #REQUIRED
 	ergebnis	CDATA #IMPLIED
 >
