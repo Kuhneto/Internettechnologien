@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<!DOCTYPE Vorlesung SYSTEM "VLML.dtd">-->
 <Vorlesung> 
+	<Bezeichnung>Software Engineering 3</Bezeichnung>
+	<Abkürzung>SWE3</Abkürzung>
 	<Hochschule>HAW Landshut</Hochschule>
 	<Semester>Sommersemester</Semester>
 	<SWS>5</SWS>
 	<Raum>C005</Raum>
 	<Professor>
 		<name>Scholz</name>
+		<Geschlecht>männlich</Geschlecht>
 		<fakultät>Informatik</fakultät>
 	</Professor>
 	<Studenten>
@@ -19,7 +22,7 @@
 		<Termin>1</Termin>
 	</Kapitel>
 	<Kapitel>
-		<Name>Sicherheit</Name>
+		<Name>Neumann Architektur</Name>
 		<Termin>2</Termin>
 	</Kapitel>
 </Vorlesung>
